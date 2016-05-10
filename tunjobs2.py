@@ -52,7 +52,7 @@ for pge in xrange(1,37):
         try:
             job_info = get_text(job_url)    
             record.append(job_info)
-            print 'Successfully extract Job ' + str(ID) + 'char length = ' + str(len(job_info))
+            print 'Successfully extract Job ' + str(ID) + ' char length = ' + str(len(job_info))
         except:
             print 'Failed at extracting Job ' + str(ID)
 
